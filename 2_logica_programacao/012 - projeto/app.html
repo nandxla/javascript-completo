@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: blueviolet;
+        }
+
+        #block {
+            background-color: white;
+            padding: 10px;
+            margin: 20px auto;
+            width: 700px;
+            border-radius: 10px;
+        }
+
+        #input-tarefa {
+            padding: 10px;
+        }
+
+        #btn-tarefa {
+            padding: 10px;
+        }
+
+        li {
+            list-style-position: inside;
+        }
+    </style>
+</head>
+<body>
+    <div id="block">
+        <h1>Lista de tarefas</h1>
+        <div> <input type="text" id="input-tarefa"> <button id="btn-tarefa">Adicionar tarefa</button> </div>        
+
+        <br>
+
+        <ul id="list-tarefa"></ul>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
