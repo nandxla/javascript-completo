@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: blueviolet;
+        }
+
+        #block {
+            background-color: white;
+            padding: 10px;
+            margin: 20px auto;
+            width: 700px;
+            border-radius: 10px;
+        }
+
+        .timer {
+            font-size: 3em;
+            padding: 20px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="block">
+        <h1 class="title">Timer</h1>
+        <h1 class="timer">00:00:00</h2>
+        <div>
+            <button id="iniciar">Iniciar</button>
+            <button id="pausar">Pausar</button>
+            <button id="zerar">Zerar</button>
+        </div>
+
+        <script src="./index.js"></script>
+    </div>
+</body>
+</html>
